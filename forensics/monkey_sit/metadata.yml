@@ -1,0 +1,24 @@
+# Human readable task name
+name: Monkey Sit
+# Long form description.
+description: |+
+  Some files have been taken for a forensic investigation.
+  Are you able to determine what the suspect is hiding?
+
+# The flag
+flag: kucss{M0nk3y_h1de}
+# Task category. (one of hardware, crypto, pwn, reversing, web, net, misc)
+category: forensics
+
+# === the fields below will be filled by SRE or automation ===
+
+# Task label
+label: ''
+# URL for web challenges
+link: ''
+# host/port for non-web challenges
+host: 'localhost 1337' # CHANGE
+# the URL for attachments, to be filled in by automation
+attachment: ''
+# is this challenge released? Will be set by SREs
+visible: false

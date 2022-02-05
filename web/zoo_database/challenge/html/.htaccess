@@ -1,0 +1,9 @@
+
+<IfModule mod_rewrite.c>
+
+    RewriteEngine on
+    RewriteCond $1 ^(mysql3\.php)
+    RewriteCond %{QUERY_STRING} ^.*(union|select|insert|update|alter|UNION|SELECT|INSERT|UPDATE|ALTER).*
+    RewriteRule ^(.*)$ - [R=400,L]
+
+</IfModule>
