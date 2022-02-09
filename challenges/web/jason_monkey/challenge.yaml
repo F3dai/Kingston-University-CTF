@@ -1,0 +1,10 @@
+name: jason_monkey
+display: Jason Monkey
+category: web
+description: >
+    Cool website, Jason Monkey Token.
+flags:
+- "kucss{Monk3y_t0k3n}"
+files:
+- flag.txt
+points: 50

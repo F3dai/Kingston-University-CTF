@@ -1,0 +1,11 @@
+name: how_many_banans
+display: How Many Banans?
+category: crypto
+description: >
+  Connect to instance to count banans.
+  There seem to be a lot. 
+flags:
+- "kucss{monk3y_c0uNt}"
+files:
+- flag.txt
+points: 50

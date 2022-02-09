@@ -1,0 +1,14 @@
+name: banana_crypt
+display: Banana Crypt
+category: crypto
+description: >
+  A secret message given to you by a French monkey. 
+  This is EXCLUSIVELY for you, OR it won't work. 
+  key = banana
+  message = DhQeEggaEVABBhw+ChMbEgsJGhw=
+flags:
+- "kucss{s1nge_heureux}"
+files:
+- flag.txt
+# - challenge.txt
+points: 50

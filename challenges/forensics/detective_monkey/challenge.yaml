@@ -1,0 +1,11 @@
+name: detective_monkey
+display: Detective Monkey
+category: forensics
+description: >
+  Someone has downloaded sensitive files from a website.
+  Detective monkey has been asked to investigate.
+flags:
+- "kucss{M0nk3y_h1de}"
+files:
+- flag.txt
+points: 50

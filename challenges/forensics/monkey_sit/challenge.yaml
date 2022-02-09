@@ -1,0 +1,12 @@
+name: monkey_sit
+display: Monkey Sit
+category: forensics
+description: >
+  Some files have been taken for a forensic investigation.
+  Are you able to determine what the suspect is hiding?
+flags:
+- "kucss{M0nk3y_h1de}"
+files:
+- flag.txt
+- me
+points: 50

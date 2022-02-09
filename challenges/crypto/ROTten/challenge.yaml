@@ -1,0 +1,12 @@
+name: rotten
+display: ROTten
+category: crypto
+description: >
+  Monkey inspects the rotten banana and eats it anyway. 
+  Monkey finds a note inside with the following text
+  OYGWW_FERERCRrXCRsGIa
+flags:
+- "kucss{banan_n0t_n1ce}"
+files:
+- flag.txt
+points: 50
