@@ -1,0 +1,8 @@
+name: chars
+display: Chars and stuff
+category: reverse
+description: >
+  Provide the program with a key
+flags:
+- "kucss{MONk3y_c0de}"
+points: 50

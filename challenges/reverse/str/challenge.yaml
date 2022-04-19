@@ -1,0 +1,8 @@
+name: license
+display: License
+category: reverse
+description: >
+  A program to check if a license if valid.
+flags:
+- "kucss{Str1ngy_m0nke}"
+points: 50

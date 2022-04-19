@@ -1,0 +1,11 @@
+name: location
+display: Location
+category: osint
+description: >
+  Describe to me in 3 words where I took this picture.
+  Format: kucss{one.two.three}
+flags:
+- "kucss{deciding.glory.gears}"
+files:
+- flag.txt
+points: 50

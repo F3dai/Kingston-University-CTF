@@ -1,0 +1,9 @@
+name: give_me_hash 
+display: Give me hash.
+category: misc
+description: >
+  Give monkey sha512 hash.
+  He is impatient. 
+flags:
+- "kucss{m0nkey_lik3s_haSh}"
+points: 50

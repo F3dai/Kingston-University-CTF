@@ -1,0 +1,8 @@
+name: breakpoint
+display: Breakpoint
+category: reverse
+description: >
+  Provide the program with a key
+flags:
+- "kucss{m0nk3y_br3@k}"
+points: 50
