@@ -4,8 +4,11 @@ category: forensics
 description: >
   Someone has downloaded sensitive files from a website.
   Detective monkey has been asked to investigate.
+hints: >
+  Use a software for analysing pcap file.
+  What kind of file are we looking for?  
 flags:
 - "kucss{M0nk3y_h1de}"
 files:
-- flag.txt
-points: 50
+- capture
+points: 15

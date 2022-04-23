@@ -6,7 +6,8 @@ description: >
   Are you able to determine what the suspect is hiding?
 flags:
 - "kucss{M0nk3y_h1de}"
+hints: >
+  What can a person possibly hide in an image?
 files:
-- flag.txt
 - me
 points: 50

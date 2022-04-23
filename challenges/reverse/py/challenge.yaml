@@ -2,7 +2,11 @@ name: chars
 display: Chars and stuff
 category: reverse
 description: >
-  Provide the program with a key
+  This needs to be fixed.
+hints: >
+  Recode the script, or modify it a bit to give you what you want.
+files:
+- answer.py
 flags:
 - "kucss{MONk3y_c0de}"
-points: 50
+points: 10

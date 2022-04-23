@@ -1,0 +1,11 @@
+name: jason_monkey
+display: "Jason Monkey Token"
+category: web
+description: >
+  Jason has used a form of authentication on his website.
+  He gives out a secure token for ensuring correct access.
+flags:
+- "kucss{m0nke_underst@nd_jwt}"
+files:
+- flag.txt
+points: 50

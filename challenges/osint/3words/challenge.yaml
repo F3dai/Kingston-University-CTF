@@ -6,6 +6,8 @@ description: >
   Format: kucss{one.two.three}
 flags:
 - "kucss{deciding.glory.gears}"
+hints: >
+  Every 3 metre square of the world has been given a unique combination of 3 words.
 files:
-- flag.txt
-points: 50
+- picture.jpg
+points: 10

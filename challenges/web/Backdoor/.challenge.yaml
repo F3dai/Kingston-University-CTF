@@ -1,0 +1,12 @@
+name: php
+display: php good
+category: web
+description: >
+  A really simple and definately unhackable website.
+  So much so that the monkey developer wants to show everyone they are using php at /info.php
+  "flag.txt" is in the same directory as the web page.
+hints: >
+  What is the PHP version?
+  Is this version safe?
+flags:
+- "kucss{monk3y_c0uNt}"

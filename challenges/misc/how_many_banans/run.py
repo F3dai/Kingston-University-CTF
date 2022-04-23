@@ -1,6 +1,6 @@
 import random
 
-banana = "🍌"
+banana = "\N{banana}"
 
 print("Monkey want banana. How many banans?")
 

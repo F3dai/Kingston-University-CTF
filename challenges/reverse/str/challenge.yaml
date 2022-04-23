@@ -3,6 +3,8 @@ display: License
 category: reverse
 description: >
   A program to check if a license if valid.
+hints: >
+  Don't overthink it. This is a simple file analysis.
 flags:
 - "kucss{Str1ngy_m0nke}"
-points: 50
+points: 10

@@ -1,0 +1,8 @@
+name: ku
+display: kucybersec
+category: osint
+description: >
+  I heard that Sevan hid a flag on the society website. 
+flags:
+- "kucss{gr3at_$tart}"
+points: 5
