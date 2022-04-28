@@ -8,9 +8,8 @@ description: >
   message = DhQeEggaEVABBhw+ChMbEgsJGhw=
 flags:
 - "kucss{s1nge_heureux}"
-hints: >
-  There seems to be a few rounds of encoding / encryption.
-  GCHQ made a cool tool - cyberchef.org.
-  French monkey? Maybe a French algorithm? It's similar to caeser cipher but with a key.
-  Make sure keys are the right format. 
-points: 20
+hints:
+- {"text" : "There seems to be a few rounds of encoding / encryption.", "cost" : 1}
+- {"text" : "GCHQ made a cool tool - cyberchef.org.", "cost" : 0}
+- {"text" : "French monkey? Maybe a French algorithm? It's similar to caeser cipher but with a key. Make sure keys are the right format.", "cost" : 2}
+points: 15

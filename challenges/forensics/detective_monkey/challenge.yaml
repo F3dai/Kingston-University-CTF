@@ -4,9 +4,9 @@ category: forensics
 description: >
   Someone has downloaded sensitive files from a website.
   Detective monkey has been asked to investigate.
-hints: >
-  Use a software for analysing pcap file.
-  What kind of file are we looking for?  
+hints:
+-  {"text" : "Use software for analysing pcap file.", "cost":0}
+-  {"text": "What kind of file are we looking for? Maybe they downloaded some images.", "cost" : 3}
 flags:
 - "kucss{M0nk3y_h1de}"
 files:

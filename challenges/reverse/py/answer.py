@@ -19,6 +19,5 @@ for i in range(len(intPass)):
             flagCounter += 1
         else:
             print("hmm..think harder.")
-        # exit()
 if(flagCounter == 98):
 	print(value)

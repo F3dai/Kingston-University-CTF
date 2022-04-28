@@ -3,8 +3,9 @@ display: Chars and stuff
 category: reverse
 description: >
   This needs to be fixed.
-hints: >
-  Recode the script, or modify it a bit to give you what you want.
+  Analyse the script and see if you can get a flag from it.
+hints:
+-  {"text" : "Understand exactly what each line does. You could add some extra code in the for loop to give you what you want.", "cost" : 3}
 files:
 - answer.py
 flags:

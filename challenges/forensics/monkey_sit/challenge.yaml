@@ -6,8 +6,8 @@ description: >
   Are you able to determine what the suspect is hiding?
 flags:
 - "kucss{M0nk3y_h1de}"
-hints: >
-  What can a person possibly hide in an image?
+hints:
+-  {"text" : "What can a person possibly hide in an image? Maybe you need to perform some steganalysis", "cost" : 2}
 files:
 - me
-points: 50
+points: 10

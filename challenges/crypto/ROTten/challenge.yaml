@@ -7,8 +7,6 @@ description: >
   OYGWW_FERERCRrXCRsGIa
 flags:
 - "kucss{banan_n0t_n1ce}"
-#files:
-#- flag.txt
-hints: >
-  Try and investigate ROT. I think we may be missing something :/
-points: 10
+hints:
+-  {"cost": 3, "text": "Try and investigate ROT. I think we may be missing something"}
+points: 15

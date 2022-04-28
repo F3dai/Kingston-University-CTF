@@ -4,8 +4,11 @@ category: web
 description: >
   Jason has used a form of authentication on his website.
   He gives out a secure token for ensuring correct access.
+
+  Please connect to this IP:
+  ```10.154.0.4```
 flags:
 - "kucss{m0nke_underst@nd_jwt}"
-files:
-- flag.txt
-points: 50
+hints:
+- {"text" : "An example of a vulnerability in the early *** (redacted) token node.js library. Understand how the token works.", "cost" : 5}
+points: 25

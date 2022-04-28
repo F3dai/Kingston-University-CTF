@@ -4,6 +4,10 @@ category: misc
 description: >
   Give monkey sha512 hash.
   He is impatient. 
+  Please connect to this IP:
+  ```10.154.0.4```
 flags:
 - "kucss{m0nkey_lik3s_haSh}"
-points: 50
+hints:
+ - {"text" : "Try connecting to the port with telnet or netcat to understand what the challenge is. Are you really going to manually enter the answers?", "cost" : 0}
+points: 25

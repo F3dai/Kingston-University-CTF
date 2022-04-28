@@ -4,8 +4,10 @@ category: misc
 description: >
   Connect to instance to count banans.
   There seem to be a lot. 
+  Please connect to this IP:
+  ```10.154.0.4```
+hints:
+- {"text" : "Try connecting to the port with telnet or netcat to understand what the challenge is. Are you really going to manually enter the answers?", "cost" : 0}
 flags:
 - "kucss{monk3y_c0uNt}"
-files:
-- flag.txt
-points: 50
+points: 25

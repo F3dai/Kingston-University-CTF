@@ -2,9 +2,12 @@ name: breakpoint
 display: Breakpoint
 category: reverse
 description: >
-  Provide the program with a key
-hints: >
-  Try bypass an if statement.
+  Download the file and analyse it.
+  You must provide the program with a key.
+hints:
+-  {"text" : "Try bypass an if statement using a debugger.", "cost" : 5}
 flags:
 - "kucss{m0nk3y_br3@k}"
+files:
+- bin
 points: 30

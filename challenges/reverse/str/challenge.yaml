@@ -3,8 +3,11 @@ display: License
 category: reverse
 description: >
   A program to check if a license if valid.
-hints: >
-  Don't overthink it. This is a simple file analysis.
+  Download and do some static analysis on this file.
+hints: 
+-  {"text" : "Don't overthink it. This is a simple STATIC file analysis.", "cost" : 0}
 flags:
 - "kucss{Str1ngy_m0nke}"
+files:
+- license
 points: 10
