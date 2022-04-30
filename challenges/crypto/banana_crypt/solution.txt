@@ -1,0 +1,1 @@
+https://cyberchef.org/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)XOR(%7B'option':'UTF8','string':'banana'%7D,'Standard',false)Vigen%C3%A8re_Decode('banana')&input=RGhRZUVnZ2FFVkFCQmh3K0NoTWJFZ3NKR2h3PQ
