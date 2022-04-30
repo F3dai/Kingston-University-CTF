@@ -4,12 +4,6 @@ Capture the flag competition for Kingston University Cyber Security Society
 
 This repo contains all challenges, flags and infrastructure configuration.
 
-## Template
-
-Find a template challenge in /template
-
-Each challenge must have the same directory layout and configuration files to work with kCTF.
-
 ## Setup
 
 Setup dockerd with TLS for CTFd to have access to containers - https://docs.docker.com/engine/security/protect-access/
@@ -25,11 +19,11 @@ Install CTFd
 
 Revert to 3.2.1
 
-Clone https://github.com/offsecginger/CTFd-Docker-Challenges and follow instructions (Must edit some code in CTFd for this to work).
+Clone https://github.com/offsecginger/CTFd-Docker-Challenges - edit some code in CTFd for this to work.
 
-`head -c 64 /dev/urandom > .ctfd_secret_key ` - I removed .ctfd_secret_key from git ignore file too as I forked the repo. 
+`head -c 64 /dev/urandom > .ctfd_secret_key `
 
-Run CTFd in container.
+Run CTFd in container. It's important to use -H localhost:2376 all the time so CTFd container can reach the images. 
 
 `docker-compose -H localhost:2376 --tlsverify --tlscacert ~/cert/ca.pem --tlscert ~/cert/cert.pem --tlskey ~/cert/key.pem up`
 
